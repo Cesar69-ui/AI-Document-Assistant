@@ -194,12 +194,27 @@ python web.py
 
 ## Funcionamiento local
 
-Agregar aquí las capturas de la aplicación ejecutándose localmente.
+El asistente fue ejecutado correctamente en un entorno local utilizando Gradio como interfaz web.
 
-Ejemplo:
+### Interfaz del asistente
 
-```
-screenshots/interfaz.png
+![Interfaz](screenshots/interfaz.png)
+
+### Ejecución del proyecto
+
+Durante la ejecución se cargaron correctamente los documentos utilizados para construir la base vectorial.
+
+![Terminal](screenshots/terminal.png)
+
+---
+
+## Despliegue en Oracle Cloud Infrastructure (OCI)
+
+Se realizó la configuración del despliegue utilizando Oracle Cloud Infrastructure (OCI). Sin embargo, durante la creación de la instancia Always Free (VM.Standard.A1.Flex), Oracle devolvió un error temporal de capacidad en la región seleccionada, por lo que no fue posible completar el despliegue.
+
+Este inconveniente corresponde a una limitación temporal de disponibilidad de infraestructura por parte de Oracle y no a un problema del proyecto.
+
+![Oracle OCI](screenshots/oracle_error.png)
 ```
 
 ---
